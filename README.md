@@ -1,16 +1,12 @@
-# !\[](https://i.imgur.com/5Lc6ch7.png)
+<img src="https://i.imgur.com/5Lc6ch7.png">
 
-# This is a project built as a study for \*\*University Saarland’s\*\* program \*\*“Data and Society”\*\*. We argue that digital media piracy is a predictable market correction. We hypothesize piracy emerges when market failures, specifically price disparity, fragmentation, and poor preservation fail consumers.
+This is a project built as a study for \*\*University Saarland’s\*\* program \*\*“Data and Society”\*\*. We argue that digital media piracy is a predictable market correction. We hypothesize piracy emerges when market failures, specifically price disparity, fragmentation, and poor preservation fail consumers.
 
-# 
+🐍 \*\*Dependencies\*\*
 
-# 🐍 \*\*Dependencies\*\*
+*\*Pandas\*\*: You know what pandas is for
 
-# 
 
-# \*\*Pandas\*\*: You know what pandas is for
-
-# 
 
 # ```sh
 
