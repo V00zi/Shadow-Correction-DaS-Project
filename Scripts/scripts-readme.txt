@@ -6,7 +6,7 @@ Please open the "main.py" file this is the only thing you need to run the other 
 	1. delisted_games_data.csv
 	2. piracy_search_geo.csv
 
-* The "output" folder must be empty by default and will be filled with files during runtime the final results raw file will also be generated here
+* The "output" folder must be empty by default(If it doesn't exist don't worry) and will be filled with files during runtime the final results raw file will also be generated here
 
 * Modification that are allowed are defined as parameters within the main file 
 
