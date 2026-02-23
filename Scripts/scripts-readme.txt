@@ -4,7 +4,7 @@ Please open the "main.py" file this is the only thing you need to run the other 
 
 * Please check if the "data" folder has the following files
 	1. delisted_games_data.csv
-	2. 
+	2. piracy_search_geo.csv
 
 * The "output" folder must be empty by default and will be filled with files during runtime the final results raw file will also be generated here
 

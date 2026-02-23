@@ -1,6 +1,6 @@
 import pandas as pd
 
-def clean_csv(input_file):
+def clean_data(input_file):
     try:
         df = pd.read_csv(input_file, index_col=0)
         df_cleaned = df[df.sum(axis=1) > 0]
@@ -30,7 +30,7 @@ def interpolate_info(df):
 
         # Read the delisted data to get the delist dates
         try:
-            delisted_df = pd.read_csv("output/sampled_delisted.csv")
+            delisted_df = pd.read_csv("output/p3/sampled_delisted.csv")
             # The first column might have a leading space, so strip whitespace from column names
             delisted_df.columns = delisted_df.columns.str.strip()
             # And from the 'Name' column values
@@ -62,7 +62,7 @@ def interpolate_info(df):
         if positive_trends_data:
             positive_trends_df = pd.DataFrame(positive_trends_data)
             # Reorder columns to have Date Delisted next to the keyword if desired, but this order is fine.
-            output_filename = "output/interpolated_infomation.csv"
+            output_filename = "output/p3/interpolated_infomation.csv"
             positive_trends_df.to_csv(output_filename, index=False)
             print(f"\nPositive trend dates have been written to '{output_filename}'")
         else:

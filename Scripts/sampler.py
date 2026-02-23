@@ -9,4 +9,4 @@ def sample_from(file_path,size):
     columns_to_keep = ['Name', 'Changed', "Months before (4)", "Months after (4)"]
     sampled_df_subset = sampled_df[columns_to_keep]
 
-    sampled_df_subset.to_csv("output/sampled_delisted.csv", index=False)
+    sampled_df_subset.to_csv("output/p3/sampled_delisted.csv", index=False)
