@@ -54,7 +54,7 @@
 
  1. Read this file ( Du bist **Smart** :O )
 
- 2. **Clone** the repo or **download** the whole project as a ZIP (some Data-set files may take up more storage)
+ 2. **download** the latest release this should give you all the necessary files
 
  3. **Install** all the **dependencies** mentioned above using the pip command
 
