@@ -5,18 +5,14 @@ from requests.exceptions import HTTPError
 import pandas as pd
 import random
 
-proxies = [
-"http://iweber02:qp9dQbDM@31.131.11.187:29842",
-"http://iweber02:qp9dQbDM@172.81.23.200:29842",
-"http://iweber02:qp9dQbDM@107.166.116.67:29842",
-"http://iweber02:qp9dQbDM@31.131.9.22:29842",
-"http://iweber02:qp9dQbDM@172.81.21.41:29842",
-"http://iweber02:qp9dQbDM@172.81.20.69:29842",
-"http://iweber02:qp9dQbDM@162.218.13.126:29842",
-"http://iweber02:qp9dQbDM@52.128.216.28:29842",
-"http://iweber02:qp9dQbDM@31.131.8.161:29842",
-"http://iweber02:qp9dQbDM@23.226.24.128:29842"
-]
+
+# proxy format proxies=["http://username:password@ip:port"]
+proxies = []
+
+def set_proxies(proxy_list):
+    global proxies
+    proxies = proxy_list
+    print("Proxies set successfully...")
 
 pytrends = TrendReq(hl='en-US', tz=360, proxies=proxies)
 
