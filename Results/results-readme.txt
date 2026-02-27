@@ -15,3 +15,12 @@ This folder contains the output files for the 3rd parameter (Preservation barrie
 3. filtered_interpolated_information.csv
 
 	Contains the final results of the test it shows the piracy search spike closest to the date of delisting of the respective games
+
+
+* Parameter 1
+
+This folder contains the output files for the 1st parameter (Economic barrier)
+
+1. piracy_search_geo.csv
+
+	This file contains the results retrieved from google trends directly search trends by region for the used keyword  
