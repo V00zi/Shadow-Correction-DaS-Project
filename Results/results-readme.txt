@@ -30,10 +30,4 @@ This folder contains the output files for the 3rd parameter (Preservation barrie
 2. interpolated_infomation.csv
 
 	This file contains all non zero trends from the previous file it acts as an intermediary to be able to be processed into information
-
-3. filtered_interpolated_information.csv
-
-	Contains the final results of the test it shows the piracy search spike closest to the date of delisting of the respective games
-
-
  
