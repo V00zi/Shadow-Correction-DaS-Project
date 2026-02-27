@@ -17,7 +17,7 @@
  pip install numpy
  ```
 
- **MatplotLib**: math and whatnot
+ **MatplotLib**: graphs and whatnot
  ```sh
 pip install matplotlib
  ```
