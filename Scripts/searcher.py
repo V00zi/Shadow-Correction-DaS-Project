@@ -27,37 +27,6 @@ def reset_counter():
 def rng():
     return random.randint(5, 15)
 
-def get_trends_countries(kw, cn, tf):
-    global successful, failed
-
-    try:
-        time.sleep(rng())
-        pytrends.build_payload(kw, timeframe=tf, geo=cn)
-        successful+=1
-
-        print(f"Successful Fetch:{successful}, Failed Fetch:{failed}, Fetching trends in {cn}")
-        return pytrends.interest_over_time()
-        
-    except ResponseError as e:
-
-        if e.response.status_code == 429:
-            print(f"Timed out: {e}\nExiting...")
-            exit()
-
-        elif e.response.status_code == 400:
-            failed+=1
-            successful-=1
-            print(f"Invalid request for country: {cn}, Error: {e}\nSkipping...")
-            return None
-
-        else:
-            print(f"An unexpected error occurred: {e}.\nRetrying in 10 seconds...")
-            time.sleep(10)
-
-    print(f"Max retries exceeded Skipping...")
-    return None
-
-
 def get_trends(kw_list, tf):
     global successful, failed
 
@@ -106,25 +75,3 @@ def deploy_payload(keyword, timeframe):
             result_df.to_csv("output/p3/delisted_trends_output.csv")
     return None
 
-def deploy_payload_countries(countries):
-    print(f"building payload for country-wise trend search...")
-    reset_counter()
-    dfs = []
-
-    keyword = 'game torrents + game repacks + games pirated'
-    timeframe = '2015-01-01 2025-12-31'
-
-    for country in countries:
-        
-        df = get_trends_countries([keyword], country, timeframe) 
-        
-        if df is not None and not df.empty:
-            if 'isPartial' in df.columns:
-                df = df.drop(columns=['isPartial'])
-            df.rename(columns={keyword: country}, inplace=True)
-            dfs.append(df)
-
-            result_df = pd.concat(dfs, axis=1)
-            result_df.to_csv("output/p2/countries_piracy_searches.csv")
-
-    return None
