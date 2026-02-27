@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/YMzFdTt.png" width="1035" height="383">
 
-### This is a project built as a study for **University Saarland’s** program **“Data and Society”**. We argue that digital media piracy is a predictable market correction. We hypothesize piracy emerges when market failures, specifically price disparity, fragmentation, and poor preservation fail consumers.
+### This is a project built as a study for *Saarland University's* program **“Data and Society”**. We argue that digital media piracy is a predictable market correction. We hypothesize piracy emerges when market failures, specifically price disparity, fragmentation, and poor preservation fail consumers.
 
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
 [![Python latest](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
