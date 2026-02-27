@@ -16,8 +16,31 @@ https://trends.google.com/trends/explore?date=2015-01-01%202025-12-31&q=game%20t
 
 Contains interest by region volume for piracy game searches for various regions supported by google trends. sanitized and formatted.
 
---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 
+
+* streaming_fragmentation_analytics.csv
+
+Source
+
+
+
+
+* streaming_analytics_sandvine.csv
+
+Source
+
+
+
+
+* streaming_analytics_sandvine.csv
+
+Source
+
+
+
+
+--------------------------------------------------------------------------------------------------------
 
 * list_of_delisted_games.csv 
 

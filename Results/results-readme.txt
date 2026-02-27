@@ -1,5 +1,24 @@
 This folder contains the main results extracted from our own iteration of the test. We also explain how to interpret the raw output files that are generated during your own test run
 
+
+----------------------------------------------------------------------------------------------------------
+
+* Parameter 1
+
+This folder contains the output files for the 1st parameter (Economic barrier)
+
+1. piracy_search_geo.csv
+
+	This file contains the results retrieved from google trends directly search trends by region for the used keyword 
+
+----------------------------------------------------------------------------------------------------------
+
+* Parameter 2
+
+No generated results directly refer the report for analysis
+
+----------------------------------------------------------------------------------------------------------
+
 * Parameter 3
 
 This folder contains the output files for the 3rd parameter (Preservation barrier) 
@@ -17,10 +36,4 @@ This folder contains the output files for the 3rd parameter (Preservation barrie
 	Contains the final results of the test it shows the piracy search spike closest to the date of delisting of the respective games
 
 
-* Parameter 1
-
-This folder contains the output files for the 1st parameter (Economic barrier)
-
-1. piracy_search_geo.csv
-
-	This file contains the results retrieved from google trends directly search trends by region for the used keyword  
+ 
