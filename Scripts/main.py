@@ -39,3 +39,6 @@ sam.sample_from('data/delisted_games_data.csv', 150)
 ##----STEP 4 : Clean the recieved results-----
 #cleaned_dataframe = cl.clean_data("output/p3/delisted_trends_output.csv")
 #cl.interpolate_info(cleaned_dataframe)
+
+
+##AFTER SUCESSFULLY FINISHING OPEN "final_report.ipynb" to run analysis
